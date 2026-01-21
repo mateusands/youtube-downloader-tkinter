@@ -24,7 +24,7 @@ yt-dlp
 
 FFmpeg
 
-## Estrutura do repositório
+## - Estrutura do repositório
 
 youtube-downloader-tkinter/
 │
@@ -32,8 +32,6 @@ youtube-downloader-tkinter/
 ├── src/
 
 │   └── app.py
-
-│
 
 ├── .gitignore
 
@@ -51,4 +49,5 @@ winget install "FFmpeg (Essentials Build)"
 
 
 Este projeto é apenas para fins educacionais. O usuário é responsável por respeitar os termos de uso do YouTube e as leis de direitos autorais.
+
 
