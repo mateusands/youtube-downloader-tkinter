@@ -2,7 +2,7 @@
 
 Aplicação simples com interface gráfica (Tkinter) para download de vídeos ou áudios do YouTube utilizando yt-dlp e FFmpeg.
 
-##- Funcionalidades
+## - Funcionalidades
 
 Download de vídeos em MP4 compatível
 
@@ -49,5 +49,6 @@ winget install "FFmpeg (Essentials Build)"
 
 
 Este projeto é apenas para fins educacionais. O usuário é responsável por respeitar os termos de uso do YouTube e as leis de direitos autorais.
+
 
 
