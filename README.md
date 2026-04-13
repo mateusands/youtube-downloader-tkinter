@@ -1,55 +1,60 @@
-# ﻿YouTube Downloader Tkinter
+# YouTube Downloader
 
-Aplicação simples com interface gráfica (Tkinter) para download de vídeos ou áudios do YouTube utilizando yt-dlp e FFmpeg.
+Aplicacao desktop com interface grafica (Tkinter) para download de videos e audios do YouTube utilizando yt-dlp.
 
-## - Funcionalidades
+## Funcionalidades
 
-Download de vídeos em MP4 compatível
+- Download de videos em MP4 (melhor qualidade disponivel)
+- Extracao de audio em MP3 (192 kbps)
+- Deteccao automatica de playlists
+- Barra de progresso em tempo real
+- Downloads organizados automaticamente em pastas separadas
+- Interface grafica moderna e responsiva
 
-Extração de áudio em MP3 (192kbps)
+## Requisitos
 
-Interface gráfica simples e intuitiva
+- Python 3.10+
+- [FFmpeg](https://ffmpeg.org/) — necessario para conversao de audio/video
+- [Deno](https://deno.com/) — runtime JavaScript exigido pelo yt-dlp para extracoes do YouTube
 
-Download executado em thread separada (não trava a interface)
+### Instalacao dos requisitos (Windows)
 
-Criação automática de pastas (Videos e Audios)
-
-## - Tecnologias
-
-Python 3
-
-Tkinter
-
-yt-dlp
-
-FFmpeg
-
-## - Estrutura do repositório
-
-youtube-downloader-tkinter/
-│
-
-├── src/
-
-│   └── app.py
-
-├── .gitignore
-
-├── README.md
-
-└── requirements.txt
-
-## - Como executar
-
-pip install yt-dlp
-
-Instalar FFmpeg (Windows)
-
+```bash
 winget install "FFmpeg (Essentials Build)"
+winget install DenoLand.Deno
+```
 
+### Instalacao das dependencias Python
 
-Este projeto é apenas para fins educacionais. O usuário é responsável por respeitar os termos de uso do YouTube e as leis de direitos autorais.
+```bash
+pip install -r requirements.txt
+```
 
+## Como executar
+
+```bash
+python src/app.py
+```
+
+## Estrutura do projeto
+
+```
+yt/
+├── src/
+│   └── app.py
+├── Downloads/
+│   ├── audios_unicos/
+│   ├── videos_unicos/
+│   ├── playlist_audio/
+│   └── playlist_video/
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
+A pasta `Downloads/` e suas subpastas sao criadas automaticamente ao realizar o primeiro download.
+
+## Screenshots
 
 <img width="498" height="305" alt="Screenshot_7" src="https://github.com/user-attachments/assets/59bf6449-8b7b-448a-b61b-a855c2c34516" />
 
@@ -57,7 +62,6 @@ Este projeto é apenas para fins educacionais. O usuário é responsável por re
 
 <img width="642" height="387" alt="Screenshot_9" src="https://github.com/user-attachments/assets/68b37403-5ba1-4a89-802f-4051c61d3069" />
 
+---
 
-
-
-
+Este projeto e apenas para fins educacionais. O usuario e responsavel por respeitar os termos de uso do YouTube e as leis de direitos autorais.
