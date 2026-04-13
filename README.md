@@ -56,11 +56,11 @@ A pasta `Downloads/` e suas subpastas sao criadas automaticamente ao realizar o 
 
 ## Screenshots
 
-<img width="498" height="305" alt="Screenshot_7" src="https://github.com/user-attachments/assets/59bf6449-8b7b-448a-b61b-a855c2c34516" />
+<img width="851" height="639" alt="image" src="https://github.com/user-attachments/assets/c0645424-a871-448f-ad57-84f73e9460bd" />
 
-<img width="630" height="394" alt="Screenshot_8" src="https://github.com/user-attachments/assets/7b2c0fab-d9c1-427d-9c2b-116b2a4087bf" />
+<img width="833" height="646" alt="image" src="https://github.com/user-attachments/assets/81a9c69b-bc59-4c6f-858b-40a77b74819d" />
 
-<img width="642" height="387" alt="Screenshot_9" src="https://github.com/user-attachments/assets/68b37403-5ba1-4a89-802f-4051c61d3069" />
+<img width="862" height="666" alt="image" src="https://github.com/user-attachments/assets/be464037-fea4-466e-ae07-3a7639a8a8fe" />
 
 ---
 
